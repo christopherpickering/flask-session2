@@ -11,7 +11,7 @@
   ],
   "bumpVersion": "patch",
   "includeForks": true,
-  "commitMessagePrefix": "chore(deps)",
+  "commitMessagePrefix": "fix(deps)",
   "labels": [
     "maintenance",
     "renovate"
