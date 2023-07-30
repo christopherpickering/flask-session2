@@ -2,14 +2,14 @@
 
 [[package]]
 name = "astroid"
-version = "2.15.4"
+version = "2.15.6"
 description = "An abstract syntax tree for Python with inference support."
 category = "dev"
 optional = false
 python-versions = ">=3.7.2"
 files = [
-    {file = "astroid-2.15.4-py3-none-any.whl", hash = "sha256:a1b8543ef9d36ea777194bc9b17f5f8678d2c56ee6a45b2c2f17eec96f242347"},
-    {file = "astroid-2.15.4.tar.gz", hash = "sha256:c81e1c7fbac615037744d067a9bb5f9aeb655edf59b63ee8b59585475d6f80d8"},
+    {file = "astroid-2.15.6-py3-none-any.whl", hash = "sha256:389656ca57b6108f939cf5d2f9a2a825a3be50ba9d589670f393236e0a03b91c"},
+    {file = "astroid-2.15.6.tar.gz", hash = "sha256:903f024859b7c7687d7a7f3a3f73b17301f8e42dfd9cc9df9d4418172d3e2dbd"},
 ]
 
 [package.dependencies]
@@ -113,18 +113,18 @@ uvloop = ["uvloop (>=0.15.2)"]
 
 [[package]]
 name = "boto3"
-version = "1.28.9"
+version = "1.28.15"
 description = "The AWS SDK for Python"
 category = "dev"
 optional = false
 python-versions = ">= 3.7"
 files = [
-    {file = "boto3-1.28.9-py3-none-any.whl", hash = "sha256:01f078047eb4d238c6b9c6cc623f2af33b4ae67980c5326691e35cb5493ff6c7"},
-    {file = "boto3-1.28.9.tar.gz", hash = "sha256:4cc0c6005be910e52077227e670930ab55a41ba86cdb6d1c052571d08cd4d32c"},
+    {file = "boto3-1.28.15-py3-none-any.whl", hash = "sha256:84b7952858e9319968b0348d9894a91a6bb5f31e81a45c68044d040a12362abe"},
+    {file = "boto3-1.28.15.tar.gz", hash = "sha256:a6e711e0b6960c3a5b789bd30c5a18eea7263f2a59fc07f85efa5e04804e49d2"},
 ]
 
 [package.dependencies]
-botocore = ">=1.31.9,<1.32.0"
+botocore = ">=1.31.15,<1.32.0"
 jmespath = ">=0.7.1,<2.0.0"
 s3transfer = ">=0.6.0,<0.7.0"
 
@@ -133,14 +133,14 @@ crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
 [[package]]
 name = "botocore"
-version = "1.31.9"
+version = "1.31.15"
 description = "Low-level, data-driven core of boto 3."
 category = "dev"
 optional = false
 python-versions = ">= 3.7"
 files = [
-    {file = "botocore-1.31.9-py3-none-any.whl", hash = "sha256:e56ccd3536a90094ea5b176b5dd33bfe4f049efdf71af468ea1661bd424c787d"},
-    {file = "botocore-1.31.9.tar.gz", hash = "sha256:bd849d3ac95f1781385ed831d753a04a3ec870a59d6598175aaedd71dc2baf5f"},
+    {file = "botocore-1.31.15-py3-none-any.whl", hash = "sha256:b3a0f787f275711875476cbe12a0123b2e6570b2f505e2fa509dcec3c5410b57"},
+    {file = "botocore-1.31.15.tar.gz", hash = "sha256:b46d1ce4e0cf42d28fdf61ce0c999904645d38b51cb809817a361c0cec16d487"},
 ]
 
 [package.dependencies]
@@ -590,14 +590,14 @@ develop = ["aiohttp", "mock", "pytest", "pytest-asyncio", "pytest-cov", "pytest-
 
 [[package]]
 name = "elasticsearch"
-version = "8.8.2"
+version = "8.9.0"
 description = "Python client for Elasticsearch"
 category = "dev"
 optional = false
 python-versions = ">=3.6, <4"
 files = [
-    {file = "elasticsearch-8.8.2-py3-none-any.whl", hash = "sha256:bffd6ce4faaacf90e6f617241773b3da8fb94e2e83554f5508e2fab92ca79643"},
-    {file = "elasticsearch-8.8.2.tar.gz", hash = "sha256:bed8cf8fcc6c3be7c254b579de4c29afab021f373c832246f912d37aef3c6bd5"},
+    {file = "elasticsearch-8.9.0-py3-none-any.whl", hash = "sha256:0795cbf0f61482070741c09ba02ac8fdf18f5984912fbd08b248fadd8a8c9952"},
+    {file = "elasticsearch-8.9.0.tar.gz", hash = "sha256:d3367fc013e04fc7aad349a6de9fad1ee04fb6d627b0e7896aa505c12fde5e04"},
 ]
 
 [package.dependencies]
@@ -1472,18 +1472,18 @@ plugins = ["importlib-metadata"]
 
 [[package]]
 name = "pylint"
-version = "2.17.4"
+version = "2.17.5"
 description = "python code static checker"
 category = "dev"
 optional = false
 python-versions = ">=3.7.2"
 files = [
-    {file = "pylint-2.17.4-py3-none-any.whl", hash = "sha256:7a1145fb08c251bdb5cca11739722ce64a63db479283d10ce718b2460e54123c"},
-    {file = "pylint-2.17.4.tar.gz", hash = "sha256:5dcf1d9e19f41f38e4e85d10f511e5b9c35e1aa74251bf95cdd8cb23584e2db1"},
+    {file = "pylint-2.17.5-py3-none-any.whl", hash = "sha256:73995fb8216d3bed149c8d51bba25b2c52a8251a2c8ac846ec668ce38fab5413"},
+    {file = "pylint-2.17.5.tar.gz", hash = "sha256:f7b601cbc06fef7e62a754e2b41294c2aa31f1cb659624b9a85bcba29eaf8252"},
 ]
 
 [package.dependencies]
-astroid = ">=2.15.4,<=2.17.0-dev0"
+astroid = ">=2.15.6,<=2.17.0-dev0"
 colorama = {version = ">=0.4.5", markers = "sys_platform == \"win32\""}
 dill = [
     {version = ">=0.2", markers = "python_version < \"3.11\""},
