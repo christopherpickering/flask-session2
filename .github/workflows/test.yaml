@@ -22,7 +22,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Start MongoDB
-      uses: supercharge/mongodb-github-action@v1.9.0
+      uses: supercharge/mongodb-github-action@v1.10.0
       with:
         mongodb-version: '5.0'
     - name: Start MemCache
