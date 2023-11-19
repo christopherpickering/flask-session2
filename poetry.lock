@@ -113,18 +113,18 @@ uvloop = ["uvloop (>=0.15.2)"]
 
 [[package]]
 name = "boto3"
-version = "1.28.84"
+version = "1.29.3"
 description = "The AWS SDK for Python"
 category = "dev"
 optional = false
 python-versions = ">= 3.7"
 files = [
-    {file = "boto3-1.28.84-py3-none-any.whl", hash = "sha256:98b01bbea27740720a06f7c7bc0132ae4ce902e640aab090cfb99ad3278449c3"},
-    {file = "boto3-1.28.84.tar.gz", hash = "sha256:adfb915958d7b54d876891ea1599dd83189e35a2442eb41ca52b04ea716180b6"},
+    {file = "boto3-1.29.3-py3-none-any.whl", hash = "sha256:85123ba6ccef12f8230bcd85bf730d3c4218e08e3cc4baaa0b3eae094703e77d"},
+    {file = "boto3-1.29.3.tar.gz", hash = "sha256:d038b19cbe29d488133351ee6eb36ee11a0934df8bcbc0892bbeb2c544a327a4"},
 ]
 
 [package.dependencies]
-botocore = ">=1.31.84,<1.32.0"
+botocore = ">=1.32.3,<1.33.0"
 jmespath = ">=0.7.1,<2.0.0"
 s3transfer = ">=0.7.0,<0.8.0"
 
@@ -133,14 +133,14 @@ crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
 [[package]]
 name = "botocore"
-version = "1.31.84"
+version = "1.32.3"
 description = "Low-level, data-driven core of boto 3."
 category = "dev"
 optional = false
 python-versions = ">= 3.7"
 files = [
-    {file = "botocore-1.31.84-py3-none-any.whl", hash = "sha256:d65bc05793d1a8a8c191a739f742876b4b403c5c713dc76beef262d18f7984a2"},
-    {file = "botocore-1.31.84.tar.gz", hash = "sha256:8913bedb96ad0427660dee083aeaa675466eb662bbf1a47781956b5882aadcc5"},
+    {file = "botocore-1.32.3-py3-none-any.whl", hash = "sha256:115adb7edf61ad7083fd582ac749b761fa707758bbca94d42e4e6e92940b5d38"},
+    {file = "botocore-1.32.3.tar.gz", hash = "sha256:be622915db1dbf1d6d5ed907633471f9ed8f5399dd3cf333f9dc2b955cd3e80d"},
 ]
 
 [package.dependencies]
@@ -152,7 +152,7 @@ urllib3 = [
 ]
 
 [package.extras]
-crt = ["awscrt (==0.19.10)"]
+crt = ["awscrt (==0.19.12)"]
 
 [[package]]
 name = "cachelib"
@@ -593,14 +593,14 @@ develop = ["aiohttp", "mock", "pytest", "pytest-asyncio", "pytest-cov", "pytest-
 
 [[package]]
 name = "elasticsearch"
-version = "8.10.1"
+version = "8.11.0"
 description = "Python client for Elasticsearch"
 category = "dev"
 optional = false
-python-versions = ">=3.6, <4"
+python-versions = ">=3.6"
 files = [
-    {file = "elasticsearch-8.10.1-py3-none-any.whl", hash = "sha256:68141d42d10c7f67ac466ca00496830d3b81a7e9476c3baa5585060832c60c69"},
-    {file = "elasticsearch-8.10.1.tar.gz", hash = "sha256:2cb56b433daa2d3ef1aaa2e5a5eacd36ba1d66884722f3d7759a4f9d16190059"},
+    {file = "elasticsearch-8.11.0-py3-none-any.whl", hash = "sha256:26b72957ee617c9f0b23ac872e1c133cf9d7f5d439c615daaa11016265da36ab"},
+    {file = "elasticsearch-8.11.0.tar.gz", hash = "sha256:9e08413beaff3a46bc10c6c57069a84704df6aaa93085c737df07f58a2811b78"},
 ]
 
 [package.dependencies]
