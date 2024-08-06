@@ -47,7 +47,7 @@ jobs:
         node port: 9300
         discovery type: single-node
     - name: setup poetry
-      uses: abatilo/actions-poetry@v2
+      uses: abatilo/actions-poetry@v3
       with:
         poetry-version: 1.2.2
 
